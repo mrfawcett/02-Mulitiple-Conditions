@@ -60,10 +60,10 @@ public class HonorRoll {
      * 
      * Return the correct message: "Honor Roll", "Merit List", or "No List"
      * 
-     * @param gpa
-     * @param detentions
-     * @param tardies
-     * @return award given
+     * @param gpa GPA of student
+     * @param detentions Number of dententions student has
+     * @param tardies Number of tardies student has
+     * @return String of award given
      */
     public static String awardQualifier(double gpa, int tardies, int detentions) {
         // Insert your code below
