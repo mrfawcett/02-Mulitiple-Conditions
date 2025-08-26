@@ -17,7 +17,7 @@
  * 
  * Kiddie Carousel:
  *      Available to everyone under 12 years old.
- *      If older than 12, they can still ride only if they are with a younger 
+ *      If 12 or older, they can still ride only if they are with a younger 
  *      sibling.
  */
 
@@ -45,14 +45,14 @@ public class ThemePark {
     /** COMPLETE THIS METHOD
      * Rules:
      * Age requirement is 8+ and height requirement is 40+ inches.
-     * IF under 8, parent must be present.
+     * If under 8, parent must be present.
      * 
      * @param age Age of person
      * @param height Height of person
      * @param withParent Is person with a parent?
      * @return Returns true if person can go on ride
      */
-    public static boolean canRideFamilyRiver(int age, int height, boolean withParent) {
+    public static boolean canRideFamilyRiver(int age, double height, boolean withParent) {
         // Insert your code below
 
         return false;
